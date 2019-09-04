@@ -1,0 +1,17 @@
+.form-panel{
+    align-items: center;
+    margin-left: 388px;
+    width: 560px;
+    padding: 27vh 30px;
+}
+
+.form-field{
+  margin:5px;
+  padding:0px;
+}
+
+.app{
+  background-color: lightgrey;
+  margin: 0px;
+  padding: 0px;
+}

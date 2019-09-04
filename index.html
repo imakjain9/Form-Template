@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+	<link href="bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="bootstrap.css" type="text/css" rel="stylesheet">
+	<link href="index.css" rel="stylesheet" type="text/css">
+    
+    <title>React App</title>
+  </head>
+  <body>
+  <div class="app">
+    <div class="form-panel">
+                <div class="row form-field">
+                    <h3 class="col-8"> SQL Server 2019 BDC </h3>
+                    <button class="col-4"> Install </button>
+                </div>
+                <div class="row form-field">
+                    <label class="col-6" for="subscriptionId">Subscription ID:</label>
+                    <input
+                        class="col-6"
+                        type="text"
+                        id="subscriptionId"
+                        name="subscriptionId" />
+                </div>
+                <div class="row form-field">
+                    <label for="rg" class="col-6">Resource Group:</label>
+                    <input
+                        type="text"
+                        class="col-6"
+                        id="rg"
+                        name="rg" />
+                </div>
+                <div class="row form-field">
+                    <label class="col-6" for="vm">subscription ID:</label>
+                    <input
+                        type="text"
+                        class="col-6"
+                        id="vm"
+                        name="vm" />
+                </div>
+                <div class="row form-field">
+                    <label class="col-6" for="nodes">Nodes:</label>
+                    <input
+                        type="number"
+                        class="col-6"
+                        id="nodes"
+                        name="nodes" />
+                </div>
+                <div class="row form-field">
+                    <label class="col-6" for="machineType" >Machine Type:</label>
+                    <input
+                        type="text"
+                        class="col-6"
+                        id="machineType"
+                        name="machineType" />
+                </div>
+                <div class="row form-field">
+                    <label class="col-6" for="password">Password:</label>
+                    <input
+                        type="password"
+                        class="col-6"
+                        id="password"
+                        name="password" />
+                </div>
+				<div style="padding-left: 15px;" class="row form-field">
+					<button class="col-12" type="submit"
+							onClick={this.submitFormHandler}>Submit
+						</button>
+				</div>
+            </div>
+			</div>
+  </body>
+</html>
